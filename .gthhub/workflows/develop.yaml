@@ -1,0 +1,12 @@
+name: Development of chatio workflow
+on:
+  push:
+    branches:
+      -master
+jobs:
+    development:
+        runs-on: ubuntu-latest
+        steps:
+          - name: "first step"
+          run: 
+            "echo testing the pipeline workflow"
