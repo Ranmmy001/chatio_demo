@@ -10,4 +10,14 @@ jobs:
           - name: "first step"
           run: 
             "echo testing the pipeline workflow"
-            
+
+          - name: "List the ditrectory 1"
+            run:
+              "List
+
+          - name: "Checkout into the root ditrectory"
+            uses: actions/checkout@v4
+
+          - name: "Build a Docker image"
+              run:
+              
